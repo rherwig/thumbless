@@ -28,6 +28,7 @@ see the section [Supported Sites](#supported-sites).
 ## Installation <a id="installation"></a>
 As of yet, the extension is not available via the Chrome store (will come soon!).
 To install it manually, do the following:
+
 1. Open Chrome's extension page using the menu or by typing `chrome://extensions/` in the address bar
 2. Enable the developer mode on the top of the page
 3. Click `Load unpacked extension...` and select the previosly created `build` directory
