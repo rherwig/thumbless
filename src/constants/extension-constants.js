@@ -54,9 +54,5 @@ export const SUPPORTED_SITES = [
             { regex: /(-\d{4}-\d{3}-\d{3}-wm-|-\d{3}-\d{3}-\d{3}).*/i, replacement: ".jpg" },
             { regex: /resized/i, replacement: "original" }
         ]
-    },
-    {
-        url: "instagram.com/p",
-        fn: getInstagramUrl
     }
 ];
