@@ -1,0 +1,26 @@
+{
+  "name": "thumbless",
+  "version": "1.0.0",
+  "description": "Chrome extension for viewing fullsize pictures from thumbnail urls.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "chrome",
+    "picture",
+    "fullsize",
+    "thumbnail"
+  ],
+  "author": "Rico Herwig",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "webpack": "^1.13.1"
+  }
+}
