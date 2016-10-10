@@ -1,5 +1,3 @@
-import {getInstagramUrl} from '../utils/get-instagram-url';
-
 /**
  * Array of supported sites containing their regexes.
  * @type {[]}
