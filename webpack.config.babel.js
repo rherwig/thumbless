@@ -1,4 +1,5 @@
-import webpack from 'webpack';
+import {optimize} from 'webpack';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from 'path';
 
 export default {
@@ -22,6 +23,10 @@ export default {
     },
     devtool: '#source-map',
     plugins: [
-        new webpack.NoErrorsPlugin()
+        new optimize.UglifyJsPlugin(),
+        new CopyWebpackPlugin([{
+            from: path.join(__dirname, 'manifest.json'),
+            to: path.join(__dirname, 'build')
+        }])
     ]
 };
